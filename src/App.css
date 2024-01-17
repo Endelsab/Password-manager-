@@ -1,0 +1,40 @@
+#root {
+
+  margin: 0;
+  padding: 0;
+
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AddingPassword{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  width: 60%;
+  height: 300px;
+  border-radius: 20px;
+  margin-top: 20px;
+
+}
+.AddingPassword button,input{
+  width: 230px;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+  margin: 10px;
+  padding-left: 10px;
+  
+}
+button:hover{
+  cursor: pointer;
+  background: grey;
+}
+
+
+
